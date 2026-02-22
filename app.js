@@ -79,11 +79,9 @@ document.querySelectorAll(".child").forEach(function (elem) {
      det1.addEventListener("hover", function () {
   p.style.innerHTML=hello;
 });*/
-let det1 = document.getElementById("det1");
-
 det1.addEventListener("mouseenter", function () {
-    det1querySelector("dets1").innerHTML = "Premium Export Quality";
-     det1.querySelector("strong").innerHTML = "Premium Export Quality";
+    det1.querySelector("strong").innerHTML = "<h3 class='det-title-on-hover' >Dehydrated Garlic Cloves</h3>Savory garlic flavor in seconds. Pre-peeled and ready to crush, mince, or toss whole into sauces.";
+    
 });
 
 det1.addEventListener("mouseleave", function () {
@@ -93,7 +91,7 @@ det1.addEventListener("mouseleave", function () {
 let det2 = document.getElementById("det2");
 
 det2.addEventListener("mouseenter", function () {
-    det2.querySelector("strong").innerHTML = "Premium Export Quality";
+    det2.querySelector("strong").innerHTML = "<h3 class='det-title-on-hover' >Dehydrated Onion Shreds</h3>No tears, no hassle! Add sweet, classic onion flavor instantly to soups, curries, and more.";
 });
 
 det2.addEventListener("mouseleave", function () {
@@ -101,18 +99,43 @@ det2.addEventListener("mouseleave", function () {
 });
 
 let det3 = document.getElementById("det3");
+
 det3.addEventListener("mouseenter", function () {
-    det3.querySelector("strong").innerHTML = "Premium Export Quality";
+    det3.querySelector("strong").innerHTML = "<h3 class='det-title-on-hover' >Forest Mushroom Mix</h3>Bring gourmet, earthy flavors to your kitchen. Rehydrate quickly for hearty soups and risottos. Effortless flavor in every dish.";
 });
 
 det3.addEventListener("mouseleave", function () {
     det3.querySelector("strong").innerHTML = "Forest Masharoom";
 });
+
 let det4 = document.getElementById("det4");
+
 det4.addEventListener("mouseenter", function () {
-    det4.querySelector("strong").innerHTML = "Premium Export Quality";
+    det4.querySelector("strong").innerHTML = "<h3 class='det-title-on-hover' >Sweet & Spicy Plantain Chips</h3>Golden, crispy, and perfectly spiced. A sweet and spicy snack ready anytime great for lunchboxes or movie nights.";
 });
 
 det4.addEventListener("mouseleave", function () {
-    det4.querySelector("strong").innerHTML = "Banana Chips";
+    det4.querySelector("strong").innerHTML = "Plantain Chips";
 });
+
+
+let det5 = document.getElementById("det5");
+
+det5.addEventListener("mouseenter", function () {
+    det5.querySelector("strong").innerHTML = "<h3 class='det-title-on-hover' >Premium Whole Spices</h3>Handpicked and carefully sourced for maximum freshness and aroma. Elevate every dish with bold, authentic flavors in their purest form.";
+});
+
+det5.addEventListener("mouseleave", function () {
+    det5.querySelector("strong").innerHTML = "Premium Whole Spices";
+});
+
+let det6 = document.getElementById("det6");
+
+det6.addEventListener("mouseenter", function () {
+    det6.querySelector("strong").innerHTML = "<h3 class='det-title-on-hover' >Signature Masala Blend</h3>A perfectly balanced mix of hand-selected spices crafted for rich, unforgettable taste. Add depth, warmth, and authentic flavor to every meal with ease.";
+});
+
+det6.addEventListener("mouseleave", function () {
+    det6.querySelector("strong").innerHTML = "Signature Masala Blend";
+});
+
