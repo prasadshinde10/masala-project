@@ -132,6 +132,15 @@ padding: 20px;
     font-size: 3vw;
 
 }
+.a-col{
+    margin:3rem
+}
+#a-col{
+     padding: 3rem;
+}
+.b-col{
+   padding:0 2rem;  
+}
 .image-container img {
     height: 100%;
     width: 100%;
@@ -253,7 +262,7 @@ overflow: hidden;
 
 }
 .page4{
-    height: 50vh;
+    height: 60vh;
     width: 100%;
    
     margin-top: 2rem;
@@ -347,6 +356,7 @@ overflow: hidden;
 @media (max-width: 600px) {
     .footer-container {
         grid-template-columns: 1fr;
+     
     }
 }
 
@@ -367,7 +377,7 @@ overflow: hidden;
 
     .image-container {
         height: 25vh;
-   
+       
         margin-top: 3vw;
     }
 
@@ -397,7 +407,7 @@ overflow: hidden;
 
 .product {
     height: 120vh;
-    width: 70%;
+     width: 100%;;
     overflow: hidden;
     margin-bottom: 3vw;
 }
