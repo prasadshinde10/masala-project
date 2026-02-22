@@ -216,6 +216,7 @@ padding: 20px;
 }
 .product .details:hover{
     height: 300px;
+    
 
 }
 .page3{
@@ -256,9 +257,11 @@ padding: 20px;
 overflow: hidden;
 
 
+
 }
 .child .detail:hover{
-    height: 300px;
+    height: 250px;
+    padding: 10px;
 
 }
 .page4{
