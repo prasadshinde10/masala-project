@@ -484,29 +484,34 @@ overflow: hidden;
 
 /* for screen sizes max 425*/
 
-@media(max-width:430px) {
-    .logo img{
-    height:85px;
-    width: 85px;
-  
-   border-radius: 50%;
+@media (max-width: 430px) {
+
+   
+
+    .logo {
+        width: 13.89vw;
+        height: 13.89vw;
+        
+    }
+
+    .logo img {
+        width: 13.89vw;
+        height: 13.89vw;
+    }
+
+    
+
+    .h-upper {
+        margin-left: 15vw;
+        width: 84vw;
+    }
+    .nav {
+        position: absolute;
+    }
+    .logo {
+        position: fixed;
+        
+    }
+
+    
 }
-
-.nav{
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo{
-    position: fixed;
-}
-.h-u-left{
-    margin-left: 87px;
-
-}
-
-
-
-}
-
