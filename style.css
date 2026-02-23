@@ -60,7 +60,7 @@ background-color: #f7f7f7;
     transform: scale(1.1);
 }
 .nav{
-    height: 100px;
+  height: 100px;
   position: fixed;  
   width: 100%;
   padding: 10px;
@@ -482,7 +482,31 @@ overflow: hidden;
 }
 
 
+/* for screen sizes max 425*/
+
+@media(max-width:430px) {
+    .logo img{
+    height:85px;
+    width: 85px;
+  
+   border-radius: 50%;
+}
+
+.nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    position: fixed;
+}
+.h-u-left{
+    margin-left: 87px;
+
+}
 
 
 
+}
 
