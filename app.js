@@ -94,20 +94,20 @@ dets1.addEventListener("mouseleave", function () {
     dets1.querySelector("strong").innerHTML = "Spices";
 });
 
-// Product 2 - Dehydrated Products
-dets2.addEventListener("mouseenter", function () {
-    dets2.querySelector("strong").innerHTML = "<h3 class='product-title-on-hover'>Perfectly Dehydrated</h3>Enjoy ultimate convenience without losing any flavor! Choose from whole cloves, handy flakes, smooth powders, or minced and chopped granules — in all sizes to fit your recipe perfectly.<br><br><button class='visit-category-btn'>Shop Dehydrated Goodies ➔</button>";
-});
-dets2.addEventListener("mouseleave", function () {
-    dets2.querySelector("strong").innerHTML = "Dehydrated Products";
-});
-
-// Product 3 - Ready to Eat & Cook
+// Product 3 - Dehydrated Products
 dets3.addEventListener("mouseenter", function () {
-dets3.querySelector("strong").innerHTML = "<h3 class='product-title-on-hover'>Ready to Eat & Cook</h3>Discover delicious ready-to-eat snacks and easy ready-to-cook ingredients! From sweet and spicy plantain chips to hearty mushroom dishes — enjoy gourmet flavors without the hours in the kitchen.<br><br><button class='visit-category-btn'>Shop Ready-to-Eat & Cook ➔</button>";
+    dets3.querySelector("strong").innerHTML = "<h3 class='product-title-on-hover'>Perfectly Dehydrated</h3>Enjoy ultimate convenience without losing any flavor! Choose from whole cloves, handy flakes, smooth powders, or minced and chopped granules — in all sizes to fit your recipe perfectly.<br><br><button class='visit-category-btn'>Shop Dehydrated Goodies ➔</button>";
 });
 dets3.addEventListener("mouseleave", function () {
-    dets3.querySelector("strong").innerHTML = "Ready to Eat & Cook";
+    dets3.querySelector("strong").innerHTML = "Dehydrated Products";
+});
+
+// Product 2 - Ready to Eat & Cook
+dets2.addEventListener("mouseenter", function () {
+dets2.querySelector("strong").innerHTML = "<h3 class='product-title-on-hover'>Ready to Eat & Cook</h3>Discover delicious ready-to-eat snacks and easy ready-to-cook ingredients! From sweet and spicy plantain chips to hearty mushroom dishes — enjoy gourmet flavors without the hours in the kitchen.<br><br><button class='visit-category-btn'>Shop Ready-to-Eat & Cook ➔</button>";
+});
+dets2.addEventListener("mouseleave", function () {
+    dets2.querySelector("strong").innerHTML = "Ready to Eat & Cook";
 });
 
 /*the above section ended here*/
