@@ -502,8 +502,8 @@ overflow: hidden;
     
 
     .h-upper {
-        margin-left: 15vw;
-        width: 84vw;
+        margin-left: 20vw;
+        
     }
     .nav {
         position: absolute;
@@ -513,5 +513,19 @@ overflow: hidden;
         
     }
 
+    .image-container{
+        display: none;
+    }
+
+    .page2{
+        width: 100vw;
+    }
+
+    .product{
+        width: 100dvw;
+        height: 75vh;
+    }
+
+    
     
 }
